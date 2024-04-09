@@ -1,0 +1,49 @@
+/* Selectores */
+
+h1 {
+ color:red;
+}
+
+/* Herencia */
+
+p {
+    color: red;
+}
+
+a {
+    color: inherit; /*Se utiliza para que un elemento debe heredar el valor de una propiedad CSS de su elemento padre. */
+}
+
+/* Cascada */
+
+h2{
+    color: green;
+}
+
+h2{
+    color: orange;
+}
+
+/* especificidad */
+
+#Selectorid{
+    color: blue;
+}
+
+.Selectorclass{
+    color: black;
+}
+
+h3{
+    color: aquamarine;
+}
+
+h3{
+    color:orangered !important;
+}
+/*
+  Selector de etiqueta 1
+  Selector de clase    10
+  Selector de ID       100
+  inline               1000
+  important            infinito
